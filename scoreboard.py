@@ -16,7 +16,5 @@ class ScoreBoard(Turtle):
             self.goto(0, 255)
             self.write(f'Level: {self.level}', align="center", font=("Arial", 30, "normal"))
         else:
-            self.clear()
-            self.write(f'Game Over Your Level: {self.level}', align="center", font=("Arial", 20, "normal"))
-
-
+            self.goto(0, 0)
+            self.write(f'GAME OVER', align="center", font=("Arial", 20, "normal"))
